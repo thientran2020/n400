@@ -4,7 +4,7 @@ const (
 	LINK            = "uscis.gov/citizenship/testupdates"
 	PROMT           = "Enter to continue. [Q] to quit: "
 	WELCOME_MESSAGE = "\n_________WELCOME TO PREPATION N-400 TEST_________\n\n"
-	EXIT_MESSAGE    = "\n\nGOOD LUCK WITH YOUR EXAM ^.^\n"
+	EXIT_MESSAGE    = "\nGOOD LUCK WITH YOUR EXAM ^.^\n"
 	RED             = "\033[31m"
 	BLUE            = "\033[34m"
 	GREEN           = "\033[32m"
