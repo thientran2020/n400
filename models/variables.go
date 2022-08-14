@@ -5,12 +5,13 @@ const (
 	PROMT           = "Enter to continue. [Q] to quit: "
 	WELCOME_MESSAGE = "\n_________WELCOME TO PREPATION N-400 TEST_________\n\n"
 	EXIT_MESSAGE    = "\nGOOD LUCK WITH YOUR EXAM ^.^\n"
-	RED             = "\033[31m"
-	BLUE            = "\033[34m"
-	GREEN           = "\033[32m"
-	YELLOW          = "\033[33m"
+	RED             = "\033[1;31m"
+	BLUE            = "\033[1;34m"
+	GREEN           = "\033[1;32m"
+	YELLOW          = "\033[1;33m"
 	UWHITE          = "\033[4;37m"
 	COLOROFF        = "\033[0m"
+	MARK            = "\u2713"
 )
 
 var (
