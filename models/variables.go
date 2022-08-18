@@ -58,16 +58,16 @@ var QUESTIONS = []string{
 	"What are the TWO parts of the U.S. Congress?",
 	"How many U.S. Senators are there?",
 	"We elect a U.S. Senator for how many years?",
-	"Who is ONE of your state's U.S. Senators now? Dianne Feinstein || Alex Padilla", // ***
+	"Who is ONE of your state's U.S. Senators now?", // *** Dianne Feinstein || Alex Padilla
 	"The House of Representatives has how many voting members?",
 	"We elect a U.S. Representative for how many years?",
-	"Name your U.S. Representative. Ro Khanna", // ***
+	"Name your U.S. Representative.", // *** Ro Khanna
 	"Who does a U.S. Senator present?",
 	"Why do some states have more Representatives than other states?",
 	"We elect a President for how many years?",
 	"In what month do we vote for President?",
-	"What is the name of the President of the U.S. now? Joe Biden",          // ***
-	"What is the name of the Vice President of the U.S. now? Kamala Harris", // ***
+	"What is the name of the President of the U.S. now?",      // *** Joe Biden
+	"What is the name of the Vice President of the U.S. now?", // *** Kamala Harris
 	"If the President can no longer serve, who becomes President?",
 	"If both the President and the Vice President can no longer serve, who becomes President?",
 	"Who is the Commander in Chief of the military?",
@@ -77,15 +77,15 @@ var QUESTIONS = []string{
 	"What are TWO Cabinet-level positions?",
 	"What does the judicial branch do?",
 	"What is the highest court in the U.S.?",
-	"How many justices are on the Supreme Court?",
-	"Who is the Chief Justice of the U.S. now? John Roberts", // ***
+	"How many justices are on the Supreme Court?", // *** 9
+	"Who is the Chief Justice of the U.S. now?",   // *** John Roberts
 	"Under our Constitution, some powers belong to the federal government. What is ONE power of the federal government?",
 	"Under our Constitution, some powers belong to the states. What is ONE power of the states?",
-	"Who is the Governor of your state now? Gavin Newsom", // ***
-	"What is the capital of your state? Sacramento",       // ***
+	"Who is the Governor of your state now?", // *** Gavin Newsom
+	"What is the capital of your state?",     // *** Sacramento
 	"What are the TWO major political parties in the U.S.?",
-	"What is the political party of the President now? Democratic Party",                // ***
-	"What is the name of the Speaker of the House of Representatives now? Nancy Pelosi", // ***
+	"What is the political party of the President now?",                    // *** Democratic Party
+	"What is the name of the Speaker of the House of Representatives now?", // *** Nancy Pelosi
 	// -------------------------- ///
 	"There are 4 amendments to the Constitution about who can vote. Describe ONE of them.",
 	"What is ONE responsibility that is only for U.S. citizens?",
@@ -146,4 +146,115 @@ var QUESTIONS = []string{
 	// -------------------------- ///
 	"When do we celebrate Independence Day?",
 	"Name TWO national U.S. holidays?",
+}
+
+var ANSWERS = []string{
+	"- the Constitution",
+	"- sets up the government\n- defines the government\n- protects basic rights of Americans",
+	"- We the People",
+	"- a change (to the Constitution)\n- an addition (to the Constitution)",
+	"- the Bil of Rights",
+	"- speech\n- religion\n - ...",
+	"- 27",
+	"- announced our independence (from Great Britain)\n- declared our independence (from Great Britain)\n- saod the the U.S. is free (from Great Britain)",
+	"- life\n- liberty\n- pursuit of happiness",
+	"- you can practice any religion, or not practice a religion",
+	"- capitalist economy\n- market economy",
+	"- Everyone must follow the law.\n- Leaders must obey the law.\n- Government must obey the law.\n- No one is above the law.",
+	// -------------------------- ///
+	"- Congress\n- President\n- ...",
+	"- checks and balances\n- separation of powers",
+	"- the President",
+	"- Congress\n- Senate and House (of Representatives)\n- U.S or national legislature",
+	"- the Senate and House (of Representatives)",
+	"- 100",
+	"- 6",
+	"- Alex Padilla",
+	"- 435",
+	"- 2",
+	"- Ro Khanna",
+	"- all people of the state",
+	"- because of the state's population",
+	"- 4",
+	"- November",
+	"- Joe Biden",
+	"- Kamala Harris",
+	"- the Vice President",
+	"- the Speaker of the House",
+	"- the President",
+	"- the President",
+	"- the President",
+	"- advises the President",
+	"- Secretary of Education\n- Secretary of Energy",
+	"- reviews laws\n- explains laws\n- resolves disputes (disagreements)\n- decides if a law goes against the Constitution",
+	"- the Supreme Court",
+	"- 9",
+	"- John Roberts",
+	"- to print money",
+	"- provide schooling and education",
+	"- Gavin Newsom",
+	"- Sacramento",
+	"- Democratic and Republican",
+	"- Democratic Party",
+	"- Nancy Pelosi",
+	// -------------------------- ///
+	"- Citizens eighteen and older can vote.",
+	"- vote in a federal election",
+	"- vote in a federal election",
+	"- freedom of speech\n- freedom of religion",
+	"- the U.S.\n- the flag",
+	"- be loyal to the U.S.",
+	"- 18 and older",
+	"- vote\n- join a political party",
+	"- April 15",
+	"- at age 18\n- between 18 and 26",
+	// -------------------------- ///
+	"- freedom",
+	"- American Indians\n- Native Americans",
+	"- Africans\n- people from Africa",
+	"- because of hight taxes\n- because the British army stayed in their houses\n- because they didn't have self-government",
+	"- Thomas Jefferson",
+	"- July 4, 1776",
+	"- New York\n- New Jersey\n- Massachusetts",
+	"- The Constitution was writtent\n- The Founding Fathers wrote the Constitution",
+	"- 1787",
+	"- Alexander Hamilton",
+	"- oldest member of the Constitutional Convention",
+	"- George Washington",
+	"- George Washington",
+	// -------------------------- ///
+	"- Louisiana",
+	"- Civil War",
+	"- the Civil War\n- the War between the States",
+	"- slavery",
+	"- led the U.S. during the Civil War",
+	"- free of slaves\n- freed slaves in the Confederacy/Cenfederate states/Southern states",
+	"- fought for women's rights\n- fought for civil rights",
+	// -------------------------- ///
+	"- Vietnam War",
+	"- Woodrow Wilson",
+	"- Franklin Roosevelt",
+	"- Japan, Germany & Italy",
+	"- World War II",
+	"- Communism",
+	"- civil rights (movement)",
+	"- fought for civil rights\n- worked for equality for all Americans",
+	"- Terrorists attacked the U.S",
+	"- Creek",
+	// -------------------------- ///
+	"- Mississippi River",
+	"- Pacific Ocean",
+	"- Atlantic Ocean",
+	"- U.S. Virgin Islands",
+	"- Maine",
+	"- California",
+	"- Washington D.C.",
+	"- New York (Harbor)",
+	// -------------------------- ///
+	"- because there were 13 original colonies\n- because the stripes represent the original colonies",
+	"- beause there are 50 states and each star represents a state",
+	"- The Star-Spangled Banner",
+	// -------------------------- ///
+	"- July 4",
+	"- Memorial Day\n- Labor Day",
 }

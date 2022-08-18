@@ -38,7 +38,7 @@ func main() {
 		}
 		answer := fmt.Sprintf("%s%s%s", m.UWHITE, fmt.Sprintf("ANSWER #%d:", number+1), m.COLOROFF)
 		if asciiCode == 10 {
-			fmt.Printf("%s\n\n\n", answer)
+			fmt.Printf("%s\n%s\n\n\n", answer, m.ANSWERS[number])
 		}
 
 		// Exit only if users enter 'Q' or 'q'
