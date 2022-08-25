@@ -153,7 +153,7 @@ var ANSWERS = []string{
 	"- sets up the government\n- defines the government\n- protects basic rights of Americans",
 	"- We the People",
 	"- a change (to the Constitution)\n- an addition (to the Constitution)",
-	"- the Bil of Rights",
+	"- the Bill of Rights",
 	"- speech\n- religion\n - ...",
 	"- 27",
 	"- announced our independence (from Great Britain)\n- declared our independence (from Great Britain)\n- saod the the U.S. is free (from Great Britain)",
