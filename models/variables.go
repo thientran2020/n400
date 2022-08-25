@@ -47,7 +47,7 @@ var QUESTIONS = []string{
 	"How many amendments does the Constitution have?",
 	"What did the Declaration of Independence do?",
 	"What are TWO rights in the Declaration of Independence?",
-	"What os freedom of religion?",
+	"What is freedom of religion?",
 	"What is the economic system in the U.S.?",
 	"What is the 'rule of law'?",
 	// -------------------------- ///
