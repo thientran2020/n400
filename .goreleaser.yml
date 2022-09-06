@@ -1,5 +1,5 @@
 builds:
-  - binary: data
+  - binary: n400
     goos:
       - darwin
       - linux
